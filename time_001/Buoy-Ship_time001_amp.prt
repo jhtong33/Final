@@ -1,0 +1,153 @@
+ BELLHOP/BELLHOP3D
+
+ BELLHOP-  ChaoJing Buoy-Ship 001                                                
+ frequency =  0.1850E+05 Hz
+
+ Dummy parameter NMedia =            1
+
+     C-linear approximation to SSP
+     Attenuation units: dB/wavelength
+     VACUUM
+
+ Depth =      33.00 m
+
+ Sound speed profile:
+   z (m)     alphaR (m/s)   betaR  rho (g/cm^3)  alphaI     betaI
+
+      0.00      1533.00      0.00     1.00       0.0000    0.0000
+     33.00      1533.00      0.00     1.00       0.0000    0.0000
+
+                                 ( RMS roughness =   0.00     )
+     Bathymetry file selected
+     ACOUSTO-ELASTIC half-space
+     33.00      2300.00      0.00     2.30       1.2000    0.0000
+
+ __________________________________________________________________________
+
+ Number of Source   depths, Sz =            1
+ Source   depths, Sz (m)
+   10.0000    
+
+
+ __________________________________________________________________________
+
+ Number of Receiver depths, Rz =            1
+ Receiver depths, Rz (m)
+   3.00000    
+
+
+ __________________________________________________________________________
+
+ Number of Receiver ranges, Rr =            1
+ Receiver ranges, Rr (km)
+  0.367970    
+
+
+ Arrivals calculation, ASCII  file output
+ Geometric hat beams in Cartesian coordinates
+ Point source (cylindrical coordinates)
+ Rectilinear receiver grid: Receivers at Rr( : ) x Rz( : )
+ __________________________________________________________________________
+
+ Number of beams in elevation   =         1001
+ Beam take-off angles (degrees)
+  -20.0000      -19.9600      -19.9200      -19.8800      -19.8400    
+  -19.8000      -19.7600      -19.7200      -19.6800      -19.6400    
+          ... 
+   20.0000    
+
+ __________________________________________________________________________
+
+
+ Step length,       deltas =   1.000     m
+
+ Maximum ray depth, Box%z  =   50.00     m
+ Maximum ray range, Box%r  =  0.8680    km
+ No beam shift in effect
+
+ __________________________________________________________________________
+
+ Using bottom-bathymetry file
+ Curvilinear Interpolation
+ Number of bathymetry points =           16
+
+ Short format (bathymetry only)
+  Range (km)  Depth (m)
+   0.00       32.6    
+  0.282E-01   32.6    
+  0.482E-01   32.0    
+  0.713E-01   31.0    
+  0.954E-01   30.7    
+  0.120       30.4    
+  0.144       30.2    
+  0.169       29.4    
+  0.194       28.8    
+  0.219       28.5    
+  0.244       28.1    
+  0.268       27.8    
+  0.293       27.6    
+  0.318       27.5    
+  0.343       27.6    
+  0.368       27.2    
+
+ ( Maximum # of arrivals =     20000000 )
+
+Tracing beam       1    -20.00
+
+ Geometric hat beams                     
+ halfwidth  =    37.781847857116979     
+ epsilonOpt =                (0.0000000000000000,82963676.765827194)
+ EpsMult    =    1.0000000000000000     
+
+Tracing beam      21    -19.20
+Tracing beam      41    -18.40
+Tracing beam      61    -17.60
+Tracing beam      81    -16.80
+Tracing beam     101    -16.00
+Tracing beam     121    -15.20
+Tracing beam     141    -14.40
+Tracing beam     161    -13.60
+Tracing beam     181    -12.80
+Tracing beam     201    -12.00
+Tracing beam     221    -11.20
+Tracing beam     241    -10.40
+Tracing beam     261     -9.60
+Tracing beam     281     -8.80
+Tracing beam     301     -8.00
+Tracing beam     321     -7.20
+Tracing beam     341     -6.40
+Tracing beam     361     -5.60
+Tracing beam     381     -4.80
+Tracing beam     401     -4.00
+Tracing beam     421     -3.20
+Tracing beam     441     -2.40
+Tracing beam     461     -1.60
+Tracing beam     481     -0.80
+Tracing beam     501      0.00
+Tracing beam     521      0.80
+Tracing beam     541      1.60
+Tracing beam     561      2.40
+Tracing beam     581      3.20
+Tracing beam     601      4.00
+Tracing beam     621      4.80
+Tracing beam     641      5.60
+Tracing beam     661      6.40
+Tracing beam     681      7.20
+Tracing beam     701      8.00
+Tracing beam     721      8.80
+Tracing beam     741      9.60
+Tracing beam     761     10.40
+Tracing beam     781     11.20
+Tracing beam     801     12.00
+Tracing beam     821     12.80
+Tracing beam     841     13.60
+Tracing beam     861     14.40
+Tracing beam     881     15.20
+Tracing beam     901     16.00
+Tracing beam     921     16.80
+Tracing beam     941     17.60
+Tracing beam     961     18.40
+Tracing beam     981     19.20
+Tracing beam    1001     20.00
+
+ CPU Time =       0.182    s
