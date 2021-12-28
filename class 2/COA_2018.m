@@ -34,10 +34,10 @@ writeenv_ray(envfil, titleenv, freq, Nmedia, topopt, ...
 
 load('matfiles/Arr')
 % Arr(1:6).arr   [121x3000]; magnitude of the arrival
-%         .time  [121x3000]; time vector
-%         .freq  [1x121];    estimated Doppler frequency
-%			 .staIdRx;          Rx Station ID
-%			 .staIdTx;          Tx Station ID
+%         .time  [121x3000]; time vector / unit(s) 
+%         .freq  [1x121];    estimated Doppler frequency 
+%			 .staIdRx;          Rx Station ID  #receiver 接收
+%			 .staIdTx;          Tx Station ID  #transmission 發射
 %			 .staNameRx;        Rx Station Name
 %			 .staNameTx;        Tx Station Name
 % There are 121 transmissions; for each transmission 3000 samples are saved.

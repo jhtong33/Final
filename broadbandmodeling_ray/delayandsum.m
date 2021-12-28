@@ -8,8 +8,8 @@ load ceig
 ColorOrderNew = colormap(jet(21));
 ColorOrderNew = ColorOrderNew(1:2:20,:);
 
-v  = [ 0, 0 ];   % Receiver motion vector (vr, vz ) in m/s
-c0 = 1500;       % reference speed to convert v to proportional Doppler
+v  = [ 0, 0 ];   % Receiver motion vector (vr, vz ) in m/s  不動
+c0 = 1500;       % reference speed to convert v to proportional Doppler 不動
 
 ARRFIL = 'T1T2.arr';
 
